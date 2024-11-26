@@ -68,7 +68,7 @@ def detect_ending():
                 isPlural = True
                 break
         if not isPlural and not isMale and not isFemale and not isNeuthral:
-            print("Введений прикметник не чоловічого, жіночго, середнього роду, або не множини. Спробуйте ще раз.")
+            print("Введений прикметник не чоловічого, жіночого, середнього родів, або не множини. Спробуйте ще раз.")
             continue
         break
 
