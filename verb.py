@@ -55,8 +55,6 @@ def detect_ending():
     return find_best_ending(noun, cases_present, cases_imperative, cases_future, cases_past, isPresent)
 
 
-
-
 def find_best_ending(verb, cases_present, cases_imperative, cases_future, cases_past, isPresent):
     best_matches = []
     best_ending = ""
